@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NodeJs Developer Demo</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- X-UA-Compatible for IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- FONT -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,600" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <!-- Bootstrap Minified CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- rad Favicon -->
+    <link rel="shortcut icon" href="/img/radlee1.png">
+    <!-- Font awesome -->
+    <!-- Other Fonts From https://fonts.googleapis.com/css?family="font-name" -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/radlee1.png">
+    <!-- JS -->
+    <!-- Minified JQuery -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- Minified Bootsrap JS -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif] -->
+
+</head>
+
+<body style="padding-top: 60px">
+
+  <div class="nav-container">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="/">Librybooks</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <!-- Jumbotron for Heading -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 style="color:#13c3ab; font-size:28px;" class="">Library Books</h1>
+          <p style="color: rgb(115, 156, 203); font-size:15px;"class="">Get the books you need</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <h2>{{messages.warning}}</h2> -->
+
+    <!-- .container is main centered wrapper -->
+    <div class="container">
+
+
+        {{{body}}}
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="col-md-12">
+        <h6>© 2018-<span><b> Mafanga </b></span>-PWA <a href="http://www.radlee.github.io">radlee.github.io</a> </h6>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

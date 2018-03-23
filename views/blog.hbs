@@ -1,0 +1,26 @@
+
+<div class="row">
+  <div class="col-md-12">
+    <!-- <p class="buttons_mobile">
+        <a style="color:white" class="btn btn-success btn-lg" href="/blog/add">
+            <span class="glyphicon glyphicon-plus"></span> Create a Blog
+        </a>
+    </p> -->
+      <div id="blogParaBG1" class="blogparagraph" class="col-sm-12">
+        {{#data}}
+        <a class="blogPost" href="/blog/:id">
+          <h2 class="heading-span">{{title}}</h2>
+        </a>
+        <p>
+          {{blog_snip}}
+          <a href="/blog/:id"><em>Read More..</em></a>
+        </p>
+        <hr>
+          <h5 class="subtagHeadings"><em><strong>Authour</strong> - {{author}}</em> </h5>
+          <h5 class="subtagHeadings"><em><strong>Date</strong> - {{date}}</em> </h5>
+          {{/data}}
+      </div>
+      <hr>
+      <br>
+  </div>
+</div>

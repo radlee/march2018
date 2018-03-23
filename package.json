@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-developer",
+  "version": "1.0.0",
+  "description": "Node Quest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.0.0rc4",
+    "express-handlebars": "*"
+  },
+  "author": "lolito",
+  "license": "ISC"
+}
